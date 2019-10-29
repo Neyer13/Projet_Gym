@@ -1,0 +1,42 @@
+
+body{
+	background-color : #61C975;
+}
+h1{
+	color: blue;
+}
+
+h2{
+	text-align : center;
+}
+
+.flex{
+	display:flex;
+	
+	height : 350px;
+	
+}
+
+.liste-gym-by-sport{
+	width: 15%;  /* Or whatever */
+  	height:100%; /* Or whatever */
+}
+
+.liste-des-gymnases{
+	
+	width: 60%;  /* Or whatever */
+  	height: 100%; /* Or whatever */
+  	margin-right: 10px;
+  	background-color: #e69138;
+  	border: 3px solid;
+}
+
+.dans-l-association{
+	
+	width: 25%;  /* Or whatever */
+  	height: 100%; /* Or whatever */
+  	margin-left: 10px;
+  	background-color : #e69138;
+  	border: 3px solid;
+  	
+}

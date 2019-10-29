@@ -1,0 +1,54 @@
+body{
+	background-color : #61C975;
+}
+
+h2{
+	text-align:center;
+}
+
+.flex{
+	display:flex;
+	height : 400px;
+}
+
+.carte-par-ville{
+	width: 65%;  /* Or whatever */
+  	height: 100%; /* Or whatever */
+}
+
+.head-bar{
+	  	border: 2px solid;
+	  	height: 55px;
+	  	padding-top:20px;
+	  	background-color : #e69138;
+	  	
+}
+
+
+.liste-ville-box{
+	display: flex;
+}
+
+.liste-gymnase-ville{
+	width: 30%;  /* Or whatever */
+  	height: 100%; /* Or whatever */
+  	margin-left: 5%;
+  	background-color : #e69138;
+  	border: 3px solid;
+}
+#map{
+height:80%;
+width: 100%;
+}
+
+.list-boutons-villes{
+	
+	width: 100%;  /* Or whatever */
+  	height: 100%; /* Or whatever */
+	text-align: center;
+	
+}
+
+.bouton-ville{
+	background-color: #9864B7;
+}
