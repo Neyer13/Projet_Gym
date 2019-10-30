@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <title>Jour</title>
@@ -14,7 +14,11 @@ background-color: #61C975;
 }
 h1{
 text-align: center;
+color: black;
 }
+a:link{
+text-decoration:none;
+} 
 .logo{
 width: 40px;
 height: 40px;
@@ -74,7 +78,7 @@ align-items: center;
 </style>
 </head>
 <body>
-	<h1>Assosiation Sportif<img class="logo"src="http://www.waldighoffen.com/vie-associative/les-associations-de-waldighoffen/espace-foot-waldighoffen/visuels-asw/football.png/image_preview"alt="Logo"></h1>
+	<a href="home"><h1>Assosiation Sportif<img class="logo"src="http://www.waldighoffen.com/vie-associative/les-associations-de-waldighoffen/espace-foot-waldighoffen/visuels-asw/football.png/image_preview"alt="Logo"></h1></a>
 <br/>
 	<div class="btn-group">
 	  <a href="sport"><button>Sport</button></a>
