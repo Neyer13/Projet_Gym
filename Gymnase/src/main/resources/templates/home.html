@@ -22,12 +22,7 @@ text-decoration:none;
 width: 40px;
 height: 40px;
 }
-.photo{
-display: flex;
-text-align: center;
-justify-content: center;
-align-items: center;
-}
+
 .image{
 width: 840px;
 height: 200px;
@@ -99,19 +94,19 @@ width: 400px;
 			<br/>
 				<div class="boutton">
 						<div>
-							<a href="sport"><button class="sport">Sport</button></a>
+							<a th:href="@{/sport}"><button class="sport">Sport</button></a>
 						</div>
 						<br/>
 						<div>
-							<a href="gymnase"><button class="gymnase">Gymnase</button></a>
+							<a th:href="@{/gymnase}"><button class="gymnase">Gymnase</button></a>
 						</div>
 						<br/>
 						<div>
-							<a href="ville"><button class="ville">Ville</button></a>
+							<a th:href="@{/ville}"><button class="ville">Ville</button></a>
 						</div>
 						<br/>
 						<div>
-							<a href="jour"><button class="jour">Jour</button></a>
+							<a th:href="@{/jour}"><button class="jour">Jour</button></a>
 						</div>
 				</div>
 		</div>
