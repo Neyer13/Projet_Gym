@@ -2,12 +2,12 @@ package com.spring.demo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-<<<<<<< HEAD
-
+import org.springframework.web.bind.annotation.RequestMethod;
+	  	    
 @Controller
 public class MyController {
-	 
-	    @RequestMapping(value="/")
+	
+	 @RequestMapping(value="/")
 	    public String homeSport() {
 	        return"home";
 	    }
@@ -16,18 +16,9 @@ public class MyController {
 	    public String home() {
 	        return"home";
 	    }
-	    
-=======
-import org.springframework.web.bind.annotation.RequestMethod;
 
-@Controller
-public class MyController {
 	@RequestMapping(value ="/", method=RequestMethod.GET)
 	public String homeAmpty() {
-		return"home";
-	}
-	@RequestMapping(value ="/home", method=RequestMethod.GET)
-	public String home() {
 		return"home";
 	}
 	
@@ -50,5 +41,4 @@ public class MyController {
 		return"Jour";
 	}
 	
->>>>>>> c981bc12dae2fc744a0da8abcff0c0dd49add952
 }
