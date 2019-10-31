@@ -16,11 +16,6 @@ public class MyController {
 	    public String home() {
 	        return"home";
 	    }
-<<<<<<< HEAD
-	    
-=======
-
-=======
 
 	@RequestMapping(value ="/", method=RequestMethod.GET)
 	public String homeAmpty() {
@@ -43,8 +38,7 @@ public class MyController {
 
 	@RequestMapping(value = "/jour")
 	public String jour() {
-		return"Jour";
+		return"jour";
 	}
 	
 }
->>>>>>> 8cf9a2eaeb3614bafd359ec54cc38876908b00df

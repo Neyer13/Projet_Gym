@@ -10,6 +10,7 @@
 body{
 font-family: arial, sans-serif;
 background-color: #61C975;
+flex-wrap: wrap;
 }
 h1{
 text-align: center;
@@ -22,10 +23,15 @@ text-decoration:none;
 width: 40px;
 height: 40px;
 }
-
 .image{
 width: 840px;
 height: 200px;
+}
+.photo{
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
 }
 p{
 background-color: #e69138;
@@ -57,6 +63,7 @@ flex-direction: row;
 text-align: center;
 justify-content: space-around;
 align-items: center;
+flex-wrap: wrap;
 }
 .chercherSport{
 display: flex;
@@ -71,6 +78,9 @@ flex-direction: column;
 text-align: center;
 justify-content: space-around;
 align-items: center;
+}
+.click{
+margin: 10px;
 }
 #map{
 height:400px;
@@ -93,19 +103,19 @@ width: 400px;
 			</div>
 			<br/>
 				<div class="boutton">
-						<div>
+						<div class="click">
 							<a th:href="@{/sport}"><button class="sport">Sport</button></a>
-						</div>
+						</div>						
 						<br/>
-						<div>
+						<div class="click">
 							<a th:href="@{/gymnase}"><button class="gymnase">Gymnase</button></a>
 						</div>
 						<br/>
-						<div>
+						<div class="click">
 							<a th:href="@{/ville}"><button class="ville">Ville</button></a>
 						</div>
 						<br/>
-						<div>
+						<div class="click">
 							<a th:href="@{/jour}"><button class="jour">Jour</button></a>
 						</div>
 				</div>

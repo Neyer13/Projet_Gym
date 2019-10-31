@@ -16,6 +16,7 @@ h1 {
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .btn-group button {
@@ -39,6 +40,7 @@ h2 {
 .flex {
 	display: flex;
 	height: 400px;
+	flex-wrap: wrap;
 }
 
 button{

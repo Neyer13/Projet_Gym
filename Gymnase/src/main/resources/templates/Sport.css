@@ -1,5 +1,6 @@
 body {
 	background-color: #61C975;
+	flex-wrap: wrap;
 }
 
 h1 {
@@ -20,6 +21,7 @@ h2 {
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .btn-group button {
@@ -44,6 +46,7 @@ h2 {
 .liste-gym-by-sport {
 	width: 15%; /* Or whatever */
 	height: 100%; /* Or whatever */
+	flex-wrap: wrap;
 }
 
 .liste-des-gymnases {
@@ -52,6 +55,7 @@ h2 {
 	margin-right: 10px;
 	background-color: #e69138;
 	border: 3px solid;
+	flex-wrap: wrap;
 }
 
 .dans-l-association {
@@ -60,4 +64,5 @@ h2 {
 	margin-left: 10px;
 	background-color: #e69138;
 	border: 3px solid;
+	flex-wrap: wrap;
 }
