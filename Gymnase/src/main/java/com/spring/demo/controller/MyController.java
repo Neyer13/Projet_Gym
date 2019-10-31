@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.spring.demo.entity.Gymnases;
 import com.spring.demo.repository.GymnaseRepository;
-//Version  N
+//Version  NY
 @Controller
 public class MyController {
 	
