@@ -1,0 +1,13 @@
+package com.spring.demo.repository;
+
+
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.spring.demo.entity.Gymnases;
+
+public interface GymnaseRepository extends MongoRepository<Gymnases,Long>{
+	
+	List<Gymnases>findAll();
+}
