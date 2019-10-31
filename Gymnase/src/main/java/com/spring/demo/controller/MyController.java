@@ -8,7 +8,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.spring.demo.document.Gymnase;
 import com.spring.demo.entity.Gymnases;
 import com.spring.demo.repository.GymnaseRepository;
 
