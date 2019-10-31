@@ -41,6 +41,7 @@ public class MyController {
 		
 		return "gymnase";
 	}
+	
 	@RequestMapping(value = "/ville")
 	public String ville() {
 		return"Ville";
@@ -50,9 +51,4 @@ public class MyController {
 	public String jour() {
 		return"Jour";
 	}
-
-	
-	
-
-
 }

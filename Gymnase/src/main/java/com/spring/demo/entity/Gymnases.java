@@ -17,8 +17,10 @@ import lombok.Setter;
 @Document(collection="Gymnases")
 public class Gymnases {
 	
+	
+	@Field(value = "_id")
 	@Id
-	private Long id;
+	private String idAdressGym;
 	
 	@Field(value = "IdGymnase")
 	private Integer idGymnase;
@@ -37,6 +39,4 @@ public class Gymnases {
 	
 	@Field(value = "Seances")
 	private Seance seances;
-	
-	
 }
