@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import com.spring.demo.document.Gymnase;
 
-public interface GymnaseRepository extends MongoRepository<Gymnase, Long>{
+public interface GymnaseRepository extends MongoRepository<Gymnases, Long>{
 
-	
+	List<Gymnases>findAll();
 }
